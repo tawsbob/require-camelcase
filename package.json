@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tawsbob/node-require-camelcase.git"
+    "url": "git+https://github.com/tawsbob/require-camelcase.git"
   },
   "author": "Dellean Santos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tawsbob/node-require-camelcase/issues"
+    "url": "https://github.com/tawsbob/require-camelcase/issues"
   },
-  "homepage": "https://github.com/tawsbob/node-require-camelcase#readme"
+  "homepage": "https://github.com/tawsbob/require-camelcase#readme"
 }
