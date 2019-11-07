@@ -1,4 +1,4 @@
-# node-require-camelcase
+# require-camelcase
 
 require all files in folder and export a object with camel case keys.
 
@@ -14,7 +14,7 @@ Imagine that you have a folder structure like this
 ---- validate.js
 
 ```javascript
-const requiredFiles = require('node-require-camelcase')()
+const requiredFiles = require('require-camelcase')()
 
 /*
 requiredFiles = {

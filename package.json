@@ -1,6 +1,6 @@
 {
   "name": "require-camelcase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "require all files in folder and export a object with camel case keys",
   "main": "index.js",
   "scripts": {
