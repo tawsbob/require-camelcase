@@ -1,7 +1,8 @@
 # node-require-camelcase
 
-require all files in folder and export a object with camel case keys
+require all files in folder and export a object with camel case keys.
 
+- no dependency
 
 ## Usage
 
@@ -34,3 +35,6 @@ requiredFiles = {
  */
  requireFiles( dir )
 ```
+
+## Notes
+Obviously because it is a module that exposes methods, functions, objects necessary for its application, it does so synchronously.
