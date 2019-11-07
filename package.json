@@ -1,0 +1,19 @@
+{
+  "name": "require-camelcase",
+  "version": "1.0.0",
+  "description": "require all files in folder and export a object with camel case keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawsbob/node-require-camelcase.git"
+  },
+  "author": "Dellean Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tawsbob/node-require-camelcase/issues"
+  },
+  "homepage": "https://github.com/tawsbob/node-require-camelcase#readme"
+}
