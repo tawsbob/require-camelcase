@@ -7,11 +7,12 @@ require all files in folder and export a object with camel case keys.
 ## Usage
 
 Imagine that you have a folder structure like this
-
--- helpers (folder)
----- parse-json.js
----- api-erros.js
----- validate.js
+```bash
+	helpers
+	---- parse-json.js
+	---- api-erros.js
+	---- validate.js
+```
 
 ```javascript
 const requiredFiles = require('require-camelcase')()
