@@ -1,10 +1,10 @@
 {
   "name": "require-camelcase",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "require all files in folder and export a object with camel case keys",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --detectOpenHandles"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tawsbob/require-camelcase/issues"
   },
-  "homepage": "https://github.com/tawsbob/require-camelcase#readme"
+  "homepage": "https://github.com/tawsbob/require-camelcase#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
