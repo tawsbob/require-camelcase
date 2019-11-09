@@ -12,7 +12,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-
+        - run: npm publish
+          
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
@@ -22,6 +23,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
+      - run: npm test
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
