@@ -34,7 +34,7 @@ requiredFiles = {
  * @function
  * @param {string} dir - path of files default is __dirname
  */
- requireFiles( dir )
+ requireFiles( __dirname || path )
 ```
 
 ## Notes
