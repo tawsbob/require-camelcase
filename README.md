@@ -15,7 +15,7 @@ Imagine that you have a folder structure like this
 ```
 
 ```javascript
-const requiredFiles = require('require-camelcase')()
+const requiredFiles = require('require-camelcase')(__dirname)
 
 /*
 requiredFiles = {
