@@ -2,8 +2,6 @@
 
 require all files in folder and export a object with camel case keys.
 
-- no dependency
-
 ## Usage
 
 Imagine that you have a folder structure like this

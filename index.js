@@ -8,8 +8,8 @@ const camelCase = require('camelcase')
  * @param {string} dir - path of files default is __dirname
  */
 
-const isJsFile = /[a-zA-Z0-9-].+(\.json|\.js)/g
-const jsonOrJsExt = /(\.json|\.js)/g
+const isJsFile = /[a-zA-Z0-9-].+(\.json|\.js)/
+const jsonOrJsExt = /(\.json|\.js)/
 
 const exportFiles = dir => {
   const dirname = dir || __dirname
