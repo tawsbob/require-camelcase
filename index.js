@@ -1,5 +1,6 @@
 const fs = require('fs')
 const path = require('path')
+const camelCase = require('camelcase')
 
 /**
  * generates object with all files in folder
@@ -16,14 +17,10 @@ const exportFiles = dir => {
 
   return files.reduce((acc, file) => {
     if (file === 'index' || file === 'index.js' || !isJsFile.test(file)) return acc
-    const name = file.replace(jsonOrJsExt, '').split('-')
-    if (name.length > 1) {
-      const secondNameFirstChar = name[1][0].toUpperCase()
-      const nameKey = `${name[0]}${secondNameFirstChar}${name[1].substring(1)}`
-      acc[nameKey] = require(path.resolve(dirname, file))
-    } else {
-      acc[name[0]] = require(path.resolve(dirname, file))
-    }
+    
+    const name  = camelCase(file.replace(jsonOrJsExt, ''))
+    acc[name]   = require(path.resolve(dirname, file))
+
     return acc
   }, {})
 }

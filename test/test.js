@@ -6,5 +6,5 @@ test('Verifica se importou os arquivos certos', () => {
     const required = requireCamel(pathToFilJson)
     expect(
         required
-    ).toEqual({"test": {"testing": "true"}});
+    ).toEqual({"testToCamelCase": {"testing": "true"}});
   });

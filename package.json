@@ -1,6 +1,6 @@
 {
   "name": "require-camelcase",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "require all files in folder and export a object with camel case keys",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/tawsbob/require-camelcase#readme",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "camelcase": "^5.3.1"
   }
 }
